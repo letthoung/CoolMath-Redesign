@@ -1,0 +1,567 @@
+		html, body {
+			margin: 0;
+			height: 100%;
+		}
+		* {
+		box-sizing: border-box;
+		}
+		
+		a:default { 
+			color: #0BAF7A;
+		}
+		a:visited { 
+			color: #1D58CE;
+		}
+		a:hover { 
+			color: #DF2020;
+		}
+		a:active { 
+			color: #EFE935;
+		}
+		
+		
+		.topnav-index {
+			padding-bottom: 20px;
+			border-bottom: 1px solid grey;
+			position: fixed;
+			width: 100%;
+			top: 0;
+			background-color: white;
+		}
+		.nav-column-index {
+			float: left;
+			padding: 10px;
+			height: 40px;
+		}
+		.home-nav-left-index {
+			text-align: center;
+			width: 40%;
+		}
+		
+		.home-nav-right-index {
+			text-align: right;
+			width: 30%;
+		}
+		
+		.home-nav-middle-index {
+			width: 30%;
+		}
+		
+		.topnav-index:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+		
+		
+		#lessons-index {
+			position: relative;
+			display: inline-block;
+		}
+		#tools-reference-index {
+			position: relative;
+			display: inline-block;
+		}
+		#lessonsbtn-index {
+			color: #0BAF7A;
+			font-family: "Arial Black", Gadget, sans-serif;
+			padding: 10px;
+		}
+		#tools-referencebtn-index {
+			color: #0BAF7A;
+			font-family: "Arial Black", Gadget, sans-serif;
+			padding: 10px;
+		}
+		#lessonlist-index {
+			display: none;
+			position: absolute;
+			background-color: #f1f1f1;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			z-index: 1;
+		}
+		#tools-referencelist-index {
+			display: none;
+			position: absolute;
+			background-color: #f1f1f1;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			z-index: 1;
+		}
+		.home-nav-left-index a {
+			color: black;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: block;
+		}
+		#lessonlist-index a:hover {background-color: #0BAF7A;}
+		#tools-referencelist-index a:hover {background-color: #0BAF7A;}
+		
+		#lessons-index:hover #lessonlist-index {display: block;}
+		#tools-reference-index:hover #tools-referencelist-index {display: block;}
+		
+		#lessons-index:hover #lessonsbtn-index {background-color: white;}
+		#tools-reference-index:hover #tools-referencebtn-index {background-color: white;}
+		
+		.home-nav-right-btn-index {
+			color: #0BAF7A;
+			font-family: "Arial Black", Gadget, sans-serif;
+			padding: 10px;
+			position: relative;
+			display: inline-block;
+		}
+		
+		.home-nav-right-index a {
+			text-decoration: none;
+			color: #0BAF7A;
+		}
+		
+		.intro-index {
+			float: left;
+			padding: 10px;
+			height: 680px;
+		}
+		.intro-left-index {
+			width: 40%;
+			padding-top: 40px;
+			padding-left: 20px;
+		}
+		.intro-right-index {
+			width: 60%;
+			padding-top: 180px;
+			padding-left: 80px;
+			text-align: left;
+		}
+		.intro-row-index:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+		.intro-text-index {
+			font-family: "Times New Roman", Times, serif;
+			font-size: 18px;
+		}
+		#otherwebsiteswrapper-index {
+			padding-left: 20px;
+		}
+		.otherwebsitesbutton-index {
+			background-color: #0BAF7A;
+			border: none;
+			color: white;
+			padding: 15px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 18px;
+			margin: 5px;
+		}
+		.otherwebsitesbutton-index a{
+			color: white;
+			text-decoration: none;
+		}
+		.mission-index {
+			padding-top: 0px;
+			text-align: center;
+		}
+		
+		.mission-column-index {
+			float: left;
+			width: 33.33%;
+			padding-left: 40px;
+			padding-right: 40px;
+			text-align: left;
+			font-family: "Times New Roman", Times, serif;
+			font-size: 18px;
+		}
+		.mission-column-index h3 {
+			border-bottom: 2px solid #0BAF7A;
+			font-family: "Arial Black", Gadget, sans-serif;
+			color: #0BAF7A;
+		}
+		.left-mission-index {
+			padding-left: 100px;
+		}
+		.right-mission-index {
+			padding-right: 100px;
+		}
+		.mission-index:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+		.continue-index {
+			padding: 0px;
+			margin-top: 40px;
+			text-align: center;
+		}
+		.continue-index a {
+			color: #0BAF7A;
+			font-size: 60px;
+			text-decoration: none;
+		}
+		.continue-link-index {
+			text-align: center;
+		}
+		.game-index {
+			float: left;
+			padding: 10px;
+			height: 260px;
+		}
+		.game-left-index {
+			width: 60%;
+			padding-top: 0px;
+			padding-left: 100px;
+		}
+		.game-right-index {
+			width: 40%;
+			padding-top: 80px;
+			text-align: left;
+		}
+		.game-row-index:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+		.game-icon-index {
+			width: 80px; 
+			height: 60px; 
+			border: 2px solid #0BAF7A;
+			padding: 5px;
+		}
+		#game-intro-index {
+			font-family: "Times New Roman", Times, serif;
+			font-size: 18px;
+		}
+		.game-left-index h2 {
+			color: #0BAF7A;
+			border-bottom: 2px solid #0BAF7A;
+			font-family: "Arial Black", Gadget, sans-serif;
+		}
+		#more-games-index {
+			color: #0BAF7A;
+			font-family: "Times New Roman", Times, serif;
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		.topnav {
+			padding-bottom: 20px;
+			border-bottom: 1px solid grey;
+			background-color: #0BAF7A;
+		}
+		.nav-column {
+			float: left;
+			padding: 10px;
+			height: 40px;
+		}
+		.home-nav-left {
+			text-align: center;
+			width: 40%;
+		}
+		
+		.home-nav-right {
+			text-align: right;
+			width: 30%;
+		}
+		
+		.home-nav-middle {
+			width: 30%;
+		}
+		
+		.topnav:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+		
+		
+		#lessons {
+			position: relative;
+			display: inline-block;
+		}
+		#tools-reference {
+			position: relative;
+			display: inline-block;
+		}
+		#lessonsbtn {
+			color: white;
+			font-family: "Arial Black", Gadget, sans-serif;
+			padding: 10px;
+		}
+		#tools-referencebtn {
+			color: white;
+			font-family: "Arial Black", Gadget, sans-serif;
+			padding: 10px;
+		}
+		#lessonlist {
+			display: none;
+			position: absolute;
+			background-color: #f1f1f1;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			z-index: 1;
+		}
+		#tools-referencelist {
+			display: none;
+			position: absolute;
+			background-color: #f1f1f1;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			z-index: 1;
+		}
+		.home-nav-left a {
+			color: black;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: block;
+		}
+		#lessonlist a:hover {background-color: #2086EE;}
+		#tools-referencelist a:hover {background-color: #2086EE;}
+		
+		#lessons:hover #lessonlist {display: block;}
+		#tools-reference:hover #tools-referencelist {display: block;}
+		
+		.home-nav-right-btn {
+			font-family: "Arial Black", Gadget, sans-serif;
+			padding: 10px;
+			position: relative;
+			display: inline-block;
+		}
+		
+		.home-nav-right a {
+			text-decoration: none;
+			color: white;
+		}
+		
+		#nav-shortcut {
+			color: #0BAF7A;
+			font-family: "Arial Black", Gadget, sans-serif;
+			padding: 10px;
+			border-bottom: 1px solid gray;
+			padding-left:200px;
+		}
+		
+		#nav-shortcut a {
+			text-decoration: none;
+			color: #0BAF7A;
+			font-family: "Arial Black", Gadget, sans-serif;
+		}
+	
+		.math-dict-intro {
+			padding-left: 200px;
+			padding-right: 100px;
+			text-align: left;
+			font-size: 20px;
+			line-height: 40px;
+		}
+		
+		.math-dict-table{
+			padding: 10px 50px 80px 400px;
+			text-align: center;
+		}
+		
+		.math-dict-table table, .math-dict-table th, .math-dict-table td {
+			border: 2px solid red;
+			color: blue;
+			border-collapse: collapse;
+			font-size: 24px;
+		}
+		.math-dict-table table, .math-dict-table tr, .math-dict-table td, .math-dict-table a {
+	 	text-decoration: none;
+		}
+		
+		.math-dict-table td {
+			width: 100px;
+			height: 80px;
+		}
+		#bottom {
+			padding-top: 20px;
+			text-align: center;
+			padding-bottom: 20px;
+			border-top: 1px solid black;
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		#bottom {
+			text-align: center;
+			padding-bottom: 10px;
+		}
+		
+		#tswcontainer {
+			display: inline-table;
+			padding-left: 300px;
+		}
+		
+		#tswcontainer li {
+			padding-bottom: 10px;
+			font-size: 20px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+
+		#tswsidecol {
+			float: left;
+		}
+
+		#tswcontent {
+			float: left;
+			width: 700px;
+		}
+		
+		#tswcontproper, #tswsideproper {
+			padding-left: 5px ;
+			padding-right: 5px ;
+		}
+		
+		#lesson-intro {
+			text-align: center;
+		}
+		.sub {
+			color:#0BAF7A;
+			font-family: "Arial Black", Gadget, sans-serif;
+		}
+		
+		.field-secondary-content-wrapper {
+			padding-left: 220px;
+			padding-top: 80px;
+			padding-bottom: 40px;
+		}
+		
+		.math-survival-intro {
+			padding-left: 200px;
+			padding-right: 100px;
+			text-align: left;
+			font-size: 20px;
+			line-height: 40px;
+		}
+		
+		.tableofcontents {
+			padding-left: 200px;
+			padding-right: 100px;
+			text-align: left;
+			font-size: 20px;
+			padding-bottom: 80px;
+		}
+		
+		.tableofcontents td {
+			border: none;
+		}
+		
+		.tableofcontents a {
+			text-decoration: none;
+		}
+		
+		.tableofcontents-left-column {
+			text-align: right;
+			padding-right: 20px;
+		}
+		
+		.game-image {
+			float: left;
+			margin-right: 40px;
+		}
+		.game-image img {
+			border: 2px solid #0BAF7A;
+		}
+		.game-row {
+			padding-left: 300px;
+			padding-bottom: 40px;
+		}
+		.game-row a {
+			text-decoration: none;
+			color: #0BAF7A;
+			font-family: "Arial Black", Gadget, sans-serif;
+		}
+		#practicemaincontent {
+			padding-bottom: 40px;
+		}
+		#practicemaincontent h3 {
+			text-align: center;
+			margin-bottom: 40px;
+		}
+		.teacher-intro {
+			float: left;
+			text-align: left;
+			font-size: 22px;
+			line-height: 40px;
+		}
+		
+		.teacher-intro img {
+			margin-left: 100px;
+		}
+		
+		.teacher-table {
+			padding-left: 200px;
+			padding-right: 100px;
+			text-align: left;
+			padding-bottom: 30px;
+			text-align: left;
+			font-size: 22px;
+			line-height: 40px;
+		}
+		.teacher-table td {
+			min-width: 100px;
+			height: 150px;
+			border-bottom: 1px solid black;
+			border-top: 1px solid black;
+			padding-bottom: 20px;
+		}
+		.feedback_survey {
+			padding-top: 50px;
+			text-align: center;
+			padding-bottom: 100px;
+		}
+		.feedback_survey fieldset{
+			border: 1px solid black;
+			width: 600px;
+			margin:auto;
+			margin-bottom: 30px;
+		}
+		.form-title {
+			font-weight: bold;
+			font-size: 24px;
+		}
+		
+		#blank {
+			text-align: left;
+		}
+		
+		#button {
+			text-align: center;
+		}
+		
+		.teacher-intro-left {
+			width: 60%;
+			padding-left: 200px;
+		}
+		.teacher-intro-right {
+			width: 40%;
+			padding-top: 100px;
+			padding-left: 0px;
+			text-align: left;
+		}
+		.teacher-intro-row:after {
+			content: "";
+			display: table;
+			clear: both;
+		}

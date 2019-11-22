@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Survey | Cool Math</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/style.css">
+	<link rel="icon" href="../images/logo-1.jpg" type="image/icon">
+</head>
+<body>
+	<nav class="topnav">
+		<div class="home-nav-left nav-column">
+			<div id="lessons">
+				<div id="lessonsbtn">Lessons &#x25BC;</div>
+				<div id="lessonlist">
+					<a href="pre-algebra.html" target="_self">Pre-Algebra</a>
+					<a href="algebra.html" target="_self">Algebra</a>
+					<a href="pre-calculus.html" target="_self">Pre-Calculus</a>
+					<a href="practice.html" target="_self">Practice</a>
+				</div>
+			</div>
+			<div id="tools-reference">
+				<div id="tools-referencebtn">Tools &amp; Reference &#x25BC;</div>
+				<div id="tools-referencelist">
+					<a href="math_dictionary.html" target="_self">Math Dictionary</a>
+					<a href="math_survival_guide.html" target="_self">Math Survival Guide</a>
+					<a href="teachers_success_area.html" target="_self">Teacher's Success Area</a>
+				</div>
+			</div>	
+		</div>
+		<div class="home-nav-middle nav-column">
+			<a href="../index.html"><img src="../images/logo-3.jpg" alt="logo3" height="50" width="180"></a>
+		</div>
+		<div class="home-nav-right nav-column">
+			<div class="home-nav-right-btn"><a href="user_feedback.html" target="_self">User Feedback</a></div>
+			<div class="home-nav-right-btn"><a href="user_survey.html" target="_self">User Survey</a></div>
+		</div>
+	</nav>
+	
+	<main>
+		<div id="nav-shortcut">
+			<a href="../index.html">Home </a> &#8592; User Survey
+		</div>
+		<div class="feedback_survey">
+			<form method="post" name="myInfo" action="http://webdevbasics.net/scripts/demo.php">
+				<div id="blank">
+					<fieldset>
+						<legend class="form-title">
+							Customer Information
+						</legend>
+						Name: <input type="text" name="name" id="name"> <br>
+						E-mail: <input type="text" name="email" id="email"> <br>
+					</fieldset>
+					<br>
+					<fieldset>
+						<legend class="form-title">
+						What do you use our site for?
+						</legend>
+							<input type="checkbox" name="lesson" id="lesson" value="yes">Math Lessons <br>
+							<input type="checkbox" name="game" id="game" value="yes">Math Games <br>
+							<input type="checkbox" name="practice" id="practice" value="yes">Math Practice <br>
+							<input type="checkbox" name="other" id="other" value="yes">Other <br>
+					</fieldset>
+					<br>
+					<fieldset>
+						<legend class="form-title">
+						Select how often you visit our site
+						</legend>
+							<input type="radio" name="daily" value="daily">Daily <br>
+							<input type="radio" name="weekly" value="weekly">Weekly <br>
+							<input type="radio" name="monthly" value="monthly">Monthly <br>
+							<input type="radio" name="other" value="other">Other <br>
+					</fieldset>
+
+					<fieldset>
+						<legend class="form-title">
+						Select the location where you most use our site
+						</legend>
+							<select>
+								<option value="select a location">Select a Location</option>
+								<option value="school">At school</option>
+								<option value="home">At home</option>
+								<option value="work">At work</option>
+								<option value="other">Other</option>
+							</select>
+					</fieldset>
+				</div>
+				<br>
+					<div id="button">
+					<input class="btn" id="submit" type="submit" value="Submit">
+					<input class="btn" type="reset">
+				</div>
+			</form>
+		</div>
+	</main>
+	<footer id="bottom">&copy; 2019 Coolmath.com LLC. All Rights Reserved. 
+	<a href="http://www.constructivemedia.com/">Constructive Media, LLC</a> </footer>
+
+</body>
+</html>
